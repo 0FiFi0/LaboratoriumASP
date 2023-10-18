@@ -1,10 +1,10 @@
-﻿using Lab2.Models;
+﻿using Microsoft.AspNetCore.Mvc;
+using Lab2.Views.Birth;
 using Lab2.Views.Calculator;
-using Microsoft.AspNetCore.Mvc;
 
 namespace Lab2.Controllers
 {
-    public class CalculatorController : Controller
+    public class BirthController : Controller
     {
         public IActionResult Index()
         {
@@ -16,12 +16,8 @@ namespace Lab2.Controllers
             return View();
         }
 
-        public IActionResult Result(Calculator model)
+        public IActionResult Result(Birth model)
         {
-            if (!model.IsValid())
-            {
-                return View("Error");
-            }
 
             return View(model);
         }
