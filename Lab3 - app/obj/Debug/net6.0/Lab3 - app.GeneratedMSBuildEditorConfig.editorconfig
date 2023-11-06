@@ -5,81 +5,80 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
-build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Lab3___app
 build_property.RootNamespace = Lab3___app
-build_property.ProjectDir = C:\Users\oskwa\Source\Repos\LaboratoriumASP\Lab3 - app\
+build_property.ProjectDir = C:\Users\User\Source\Repos\LaboratoriumASP\Lab3 - app\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\oskwa\Source\Repos\LaboratoriumASP\Lab3 - app
+build_property.MSBuildProjectDirectory = C:\Users\User\Source\Repos\LaboratoriumASP\Lab3 - app
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Create.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Delete.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Details.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Index.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Update.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Contact/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Home/Index.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Home/Privacy.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Create.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Delete.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Details.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Index.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Update.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Photo/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvdG9cVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Shared/Error.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/_ViewImports.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/_ViewStart.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/oskwa/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Source/Repos/LaboratoriumASP/Lab3 - app/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-c2st292rcd

@@ -1,8 +1,8 @@
-﻿using Laboratorium_3___App.Models;
+﻿using Lab3___app.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Laboratorium_3___App.Controllers
+namespace Lab3___app.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,7 +1,7 @@
-﻿using Laboratorium_3___App.Models;
+﻿using Lab3___app.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Laboratorium_3___App.Controllers
+namespace Lab3___app.Controllers
 {
     public class ContactController : Controller
     {
@@ -13,7 +13,6 @@ namespace Laboratorium_3___App.Controllers
         public IActionResult Index()
         {
             var contacts = _contactService.FindAll();
-            // Zamień listę na słownik, jeśli to jest wymagane przez Twój widok
             var contactDictionary = contacts.ToDictionary(c => c.Id);
             return View(contactDictionary);
         }

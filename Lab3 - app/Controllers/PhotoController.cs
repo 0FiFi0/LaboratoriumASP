@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Laboratorium_3___App.Models;
+using Lab3___app.Models;
 
-namespace Laboratorium_3___App.Controllers
+namespace Lab3___app.Controllers
 {
     public class PhotoController : Controller
     {
