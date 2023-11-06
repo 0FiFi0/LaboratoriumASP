@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 
-namespace Lab3___app.Models
+namespace Laboratorium_3___App.Models
 {
     public class Photo
     {

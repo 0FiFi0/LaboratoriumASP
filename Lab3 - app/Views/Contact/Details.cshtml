@@ -4,14 +4,21 @@
 *@
 @{
 }
+
+<h1>Szczegóły kontaktu</h1>
 <p>imię</p>
 <h4>@Model.Name</h4>
 <p>email</p>
 <h4>@Model.Email</h4>
-<p>numer telefonu</p>
+<p>Telefon</p>
 <h4>@Model.Phone</h4>
-<p>data urodzenia</p>
+<p>Data urodzenia</p>
 <h4>@Model.Birth</h4>
+<p>Priorytet</p>
+<h4>@Model.Priority</h4>
+<p>Aktualny czas stworzenia:</p>
+<h4>@Model.Created</h4>
 <form asp-action="Index">
-    <button class="btn btn-danger" type="submit">Powrót</button>
+    <input asp-for="Id" />
+    <button class="btn btn-primary" type="submit">Wróć</button>
 </form>
