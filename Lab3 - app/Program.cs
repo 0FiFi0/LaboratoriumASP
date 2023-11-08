@@ -1,4 +1,6 @@
+using Data;
 using Lab3___app.Models;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Lab3___app
 {
@@ -10,7 +12,8 @@ namespace Lab3___app
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            builder.Services.AddSingleton<IContactService, MemoryContactService>();
+            builder.Services.AddDbContext<AppDbContext>();
+            builder.Services.AddTransient<IContactService, EFContactService>();
             builder.Services.AddSingleton<IDateTimeProvider, CurrentDateTimeProvider>();
 
             var app = builder.Build();
