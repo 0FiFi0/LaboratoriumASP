@@ -1,4 +1,5 @@
 ﻿using Data;
+using Data.Entities;
 
 namespace Lab3___app.Models
 {
@@ -24,6 +25,11 @@ namespace Lab3___app.Models
                 _context.Contacts.Remove(find);
                 _context.SaveChanges();
             }
+        }
+
+        public List<OrganizationEntity> FindAllOrganization()
+        {
+            return _context.Organizations.ToList();
         }
 
         public List<Contact> FindAll()

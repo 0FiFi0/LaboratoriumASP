@@ -12,7 +12,8 @@ namespace Lab3___app.Models
                 Name = entity.Name,
                 Email = entity.Email,
                 Phone = entity.Phone,
-                Birth = entity.Birth
+                Birth = entity.Birth,
+                OrganizationId = entity.OrganizationId,
             };
         }
 
@@ -24,7 +25,8 @@ namespace Lab3___app.Models
                 Name = model.Name,
                 Email = model.Email,
                 Phone = model.Phone,
-                Birth = model.Birth
+                Birth = model.Birth,
+                OrganizationId = model.OrganizationId,
             };
         }
     }

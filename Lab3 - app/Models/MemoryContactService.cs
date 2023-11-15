@@ -1,4 +1,7 @@
-﻿namespace Lab3___app.Models
+﻿using Data.Entities;
+using Microsoft.EntityFrameworkCore;
+
+namespace Lab3___app.Models
 {
     public class MemoryContactService : IContactService
     {
@@ -20,9 +23,15 @@
         }
 
 
+
         public List<Contact> FindAll()
         {
             return _items.Values.ToList();
+        }
+
+        public List<OrganizationEntity> FindAllOrganization()
+        {
+            throw new NotImplementedException();
         }
 
         public Contact? FindByID(int id)

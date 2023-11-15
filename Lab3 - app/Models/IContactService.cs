@@ -1,4 +1,7 @@
-﻿namespace Lab3___app.Models
+﻿using Data.Entities;
+using Microsoft.AspNetCore.Mvc.Rendering;
+
+namespace Lab3___app.Models
 {
     public interface IContactService
     {
@@ -7,6 +10,7 @@
         List<Contact> FindAll();
         void Update(Contact contact);
         Contact? FindByID(int id);
+        List<OrganizationEntity> FindAllOrganization();
     }
 }
 

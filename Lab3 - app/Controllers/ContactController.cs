@@ -1,5 +1,6 @@
 ﻿using Lab3___app.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace Lab3___app.Controllers
 {
@@ -20,7 +21,13 @@ namespace Lab3___app.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            return View();
+            List<SelectListItem> orgranizations = _contactService.FindAllOrganization()
+                .Select(e => new SelectListItem()
+                {
+                    Text = e.Name,
+                    Value = e.Id.ToString(),
+                }).ToList();
+            return View(new Contact() { OrganizationsList = orgranizations});
         }
 
         [HttpPost]
