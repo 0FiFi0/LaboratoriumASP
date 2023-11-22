@@ -1,4 +1,6 @@
 ﻿using Data.Entities;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Data
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<IdentityUser>
 
     {
         public DbSet<ContactEntity> Contacts { get; set; }
@@ -30,6 +32,49 @@ namespace Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
+            var user = new IdentityUser()
+            {
+                Id = Guid.NewGuid().ToString(),
+                UserName = "test",
+                NormalizedUserName = "TEST",
+                Email = "test@wsei.edu.pl",
+                NormalizedEmail = "TEST@WSEI.EDU.PL",
+                EmailConfirmed = true,
+            };
+
+            PasswordHasher<IdentityUser>passwordHasher = new PasswordHasher<IdentityUser>();
+            user.PasswordHash = passwordHasher.HashPassword(user, "1234Ab!");
+
+            modelBuilder.Entity<IdentityUser>()
+                .HasData(user);
+
+            //tworzenie roli
+
+            var adminRole = new IdentityRole()
+            {
+                Id = Guid.NewGuid().ToString(),
+                Name = "admin",
+                NormalizedName = "ADMIN",
+            };
+
+            adminRole.ConcurrencyStamp = adminRole.Id;
+
+            modelBuilder.Entity<IdentityRole>()
+                .HasData(adminRole);
+
+            //nadanie uzytkownikowi roli
+
+            modelBuilder.Entity<IdentityUserRole<string>>()
+                .HasData(
+                    new IdentityUserRole<string>()
+                    {
+                        RoleId = adminRole.Id,
+                        UserId = user.Id,
+                    }
+                );
+
             modelBuilder.Entity<ContactEntity>()
                 .HasOne(e => e.Organization)
                 .WithMany(o => o.Contacts)

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BJ0ycy9HT7qMglDetiVkAgll/+kYLvrdT6+PEVb8p6glgHCDkx3nH3zJTT4aSziJZ3CbvXfdcppVJqafSem8tw==",
+  "dgSpecHash": "sPXLlshhFuVVwTQItl1dYAVCgvSObUcUYhhAyPgNjMDNEppGDv3l8Z6qFGgNU8ij9FTshazh8Grh/0M17/GIIg==",
   "success": true,
   "projectFilePath": "D:\\Users\\filip.oskwarek\\source\\repos\\LaboratoriumASP\\Lab3 - app\\Lab3 - app.csproj",
   "expectedPackageFiles": [
+    "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.25\\microsoft.aspnetcore.cryptography.internal.6.0.25.nupkg.sha512",
+    "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.25\\microsoft.aspnetcore.cryptography.keyderivation.6.0.25.nupkg.sha512",
+    "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.25\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.25.nupkg.sha512",
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",
@@ -17,6 +20,8 @@
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.extensions.dependencymodel\\7.0.0\\microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.extensions.identity.core\\6.0.25\\microsoft.extensions.identity.core.6.0.25.nupkg.sha512",
+    "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.extensions.identity.stores\\6.0.25\\microsoft.extensions.identity.stores.6.0.25.nupkg.sha512",
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "D:\\Users\\filip.oskwarek\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
